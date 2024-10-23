@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: orangered ; */
+}
+.all{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+.allMe{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.full{
+    display: flex;
+    height: 30px;
+    width: 20%;
+    align-items: center;
+    gap: 10px;
+
+}
+.textupp{
+    width: 40%;
+    height: 50px;
+    border: solid 3px black;
+    background-color: white;
+    font-weight: bold;
+}
+.textInfo{
+    width: 50%;
+    height: 50px;
+    background-color: rgb(255, 173, 32);
+    border: none;
+    font-weight: bold;
+}
+.call{
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(97, 121, 97) ;
+}
+.call div{
+    width: 100%;
+}
+.callMe{
+    padding-left: 100px;
+    margin-top: 10%;
+}
+.callMe h1{
+    font-size: 25px;
+}
+.callMe h4{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.callMe p{
+    margin-bottom: 30px;
+}
+.body{
+    width: 30%;
+    height: 50px;
+    background-color: rgb(255, 173, 32);
+    border: none;
+    
+}
+.bodyup{
+    width: 30%;
+    height: 50px;
+    background-color: rgb(97, 121, 97)  ;
+    border: solid 2px white;
+}
+.callMe button{
+    color: white;
+    font-weight: bold;
+}
+.doggie{
+    text-align: center;
+    margin-top: 70px;
+}
+.doggie img{
+    width: 70%;
+    border-radius: 10px;
+}
+.allAbout{
+    width: 100%;
+    height: 400px;
+    color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 10%;
+    background-color: rgb(231, 215, 189);
+}
+.allAbout button{
+    width: 25%;
+    height: 45px;
+    color: rgb(22, 22, 22);
+    margin-top: -10px;
+    background-color: rgb(250, 178, 53);
+    font-weight: bold;
+    border-radius: 20px;
+}
+.alltoyou{
+    justify-content: space-around;
+    display: flex;
+    width: 50%;
+}
+.imgbox{
+    display: flex;
+    /* height: 50px; */
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    margin-top: -250px;
+    font-size: 50px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.imgbox img{
+    width: 150%;
+}
+.imgbox p{
+    margin-bottom: 30px;
+    padding-left: 20%;
+    
+}
+.contactInbox{
+    margin-top: 10%;
+}
+.contactnum{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 25px;
+    /* padding-top: 10px; */
+
+}
+.inputBoss{
+    width: 100%;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+.inputBoss input{
+    height: 50px;
+    width: 24%;
+    border-radius: 15px;
+    border: none;
+    padding-left: 20px;
+    background-color: rgb(215, 215, 215);
+}
+.inputBoss h3{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.subbut button{
+    height: 45px;
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 37%;
+    border-radius: 5px;
+    background-color: rgba(238, 178, 75, 0.948);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.byEnd{
+    width: 90%;
+    display: flex;
+    padding-top: 10%;
+    margin: auto;
+    margin-bottom: 40px;
+    /* margin-top: 20px; */
+    gap: 3%;
+}
+.byEnd div{
+    background-color: rgb(222, 226, 228);
+    box-shadow: 4px 5px 5px gray;
+    border-radius: 5px;
+}
+.byEnd p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    /* margin: auto; */
+    /* font-weight: bold; */
+}
+.byEnd h1{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.foote{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 7%;
+    border-radius: 3px;
+    border-radius: 15px;
+    padding-bottom: 9%;
+    background-color: rgb(114, 114, 220);
+}
+.foot{
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    color: white;
+    border-radius: 5px;
+}
+.glo{
+    background-color: black;
+}
+.upupway{
+    width: 19%;
+    height: 35px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding-right: 20px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+.ass{
+    width: 27%;
+    padding-left: 5px;
+    padding-top: 2px;
+    background-color: black;
+    color: white;
+    margin-bottom: 4px;
+    border-radius: 15px;
+    border: none;
+}
