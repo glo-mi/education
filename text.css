@@ -247,3 +247,118 @@ body{
     border-radius: 15px;
     border: none;
 }
+@media (max-width:415px) {
+    .allAbout h2{
+        margin-left: -30px;
+    }
+    .allAbout button{
+        margin-left: 20px;
+    }
+    .allMe{
+        display: none;
+    }
+    .full button{
+        display: none;
+    }
+    .all h1{
+        margin-left: -40px;
+    }
+    .full h2{
+        margin-left: 90px;
+    }
+    .call{
+        display: flex;
+        flex-direction: column;
+    }
+    .callMe{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .callMe h4{
+        font-size: 25px;
+    }
+    .callMe button{
+        width: 91%;
+        margin-left: 6px;
+    }
+    .doggie img{
+        display: flex;
+        width: 95%;
+        margin-left: 9px;
+        margin-bottom: 10px;
+    }
+    .allAbout{
+        justify-content: space-between;
+        display: flex;
+        padding: 40px;
+    }
+    .allAbout button{
+        width: 100%;
+        border: none;
+    }
+    .alltoyou h3{
+        display: none;
+    }
+    .imgbox{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .imgbox div p{
+        padding-left: 1%;
+        font-size: 40px;
+    }
+    .imgbox img{
+        width: 100%;
+
+    }
+    .contactnum{
+        text-align: center;
+    }
+    .contactnum p{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .inputBoss{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .inputBoss input{
+        width: 90%;
+    }
+    .subbut button{
+        width: 70%;
+        margin-left: 50px;
+    }
+    .byEnd{
+        width: 90%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+    .byEnd div h1{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .foote{
+        height: 150px;
+        padding-top: 50px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .upupway{
+        width: 80%;
+    }
+    .foot div{
+        margin-top: 20px;
+    }
+
+
+    
+}
